@@ -1,4 +1,4 @@
-## Lab Report 1
+# Lab Report 1
 *Jasmine Zhang A17371205*
-# Command cd
+## Command cd
 Question 01
