@@ -61,18 +61,22 @@ This is not an error output.
 ## Command cat
 **Question 01**
 
+![Image](screenshot8.png)
 
 Working directory is home.
 Here, I try command cat with no arguments, it would return a workspace that would duplicate user's input. I typed "Hello, world", and it returns the same words. Use "Control + c" to get out of the loop.
 There is no error message, command cat without arguments would give a wierd loop.
 
-
 **Question 02**
 
+![Image](screenshot9.png)
 
+Working directory is lecture1. 
+Command cat would print out the content in a specific file, so when the argument is a directory (here, argument is messages), it would return an error messages saying that the argument "Is a directory". It would not be able to print out content in the directory.
 
 **Question 03**
 
+![Image](screenshot10.png)
 
-
-
+Working directory is lecture1. 
+Here, I take two file names as argument: Hello.java and README. Both files are under the directory lecture1 that we are currently in. The cat command would print out content within these two files respectively, first print ot Hello.java, then README. The output is not an error.
