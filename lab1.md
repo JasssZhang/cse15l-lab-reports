@@ -34,7 +34,10 @@ In this case, it cannot find the file, nor a directory, and it would print out "
 
 In summary, the output would be an error, because cd command can only be used on directories, not on files.
 
-## command ls
+## Command ls
 **Question 01**
 
+![Image](screenshot5.png)
 
+Taking in no argument, command ls would print out the names of all files and folders under the directory we are currently in.
+Working directory: home
