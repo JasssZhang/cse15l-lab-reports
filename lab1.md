@@ -13,16 +13,16 @@ If we type pwd, we would see that command cd with no argument would direct us ba
 
 ![Image](screenshot2.png)
 
-Wokring directory: home
+Wokring directory: home.
 Here, the argument is lecture1, which is the name of a working directory.
-We can see that cd command with a directory as argument would direct us to that specific directory.
+We can see that cd command with a directory as argument would direct us to that specific directory. There is no output.
 With pwd command, we see that we are directed to lecture1 directory.
 
 **Question 03**
 
 ![Image](screenshot3.png)
 
-Working directory: lecture1
+Working directory: lecture1.
 Here, the argument is Hello.java, which is a file name under working directory: lecture1.
 In this case, the file can be found, but cd command cannot work with a file.
 Thus, system would print "Not a directory", as an error message
@@ -40,4 +40,28 @@ In summary, the output would be an error, because cd command can only be used on
 ![Image](screenshot5.png)
 
 Taking in no argument, command ls would print out the names of all files and folders under the directory we are currently in.
-Working directory: home
+When working directory is home, there is only one folder. It would print out the name of that folder: lecture1. When I change working directory to lecture1, there is one folder and three files. It would print out the name of the folder: messages, and the names of the three files: Hello.class, Hello.java, README. These outputs are not error.
+
+**Question 02**
+
+
+
+**Question 03**
+
+
+
+
+## Command cat
+**Question 01**
+
+
+
+**Question 02**
+
+
+
+**Question 03**
+
+
+
+
