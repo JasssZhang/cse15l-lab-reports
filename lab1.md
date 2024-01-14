@@ -44,7 +44,11 @@ When working directory is home, there is only one folder. It would print out the
 
 **Question 02**
 
+![Image](screenshot6.png)
 
+Taking in a directory as an argument, ls would print out names of files and folders in that directory only when the directory is accessible under current directory.
+When working directory is home and argument is messages, it would print out an error output "No such file or directory" because messages in under lecture1 instead of home directory, and cannot be accessed. If working directory is home and argument is lecture1, command ls would correctly print out names of files and folders in lecture1, since lecture1 is under home directory and can be accessed.
+When working directory is lecture1, taking in an argument of messages would print out files and folders in messages correctly with no error output, because the messages directory can now be accessed.
 
 **Question 03**
 
