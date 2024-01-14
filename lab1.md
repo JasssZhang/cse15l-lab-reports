@@ -52,12 +52,19 @@ When working directory is lecture1, taking in an argument of messages would prin
 
 **Question 03**
 
+![Image](screenshot7.png)
 
-
+Working directory is in lecture1, where the file Hello.java can be accessed.
+Here, we take Hello.java as argument, command ls would simply print out the file name: Hello.java, since the argument is the file name itself, and ls would print out any file and folder names.
+This is not an error output.
 
 ## Command cat
 **Question 01**
 
+
+Working directory is home.
+Here, I try command cat with no arguments, it would return a workspace that would duplicate user's input. I typed "Hello, world", and it returns the same words. Use "Control + c" to get out of the loop.
+There is no error message, command cat without arguments would give a wierd loop.
 
 
 **Question 02**
