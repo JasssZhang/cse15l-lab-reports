@@ -15,7 +15,7 @@ If we type pwd, we would see that command cd with no argument would direct us ba
 
 Wokring directory: home.
 Here, the argument is lecture1, which is the name of a working directory.
-We can see that cd command with a directory as argument would direct us to that specific directory. There is no output.
+We can see that cd command with a directory as argument would direct us to that specific directory. There is no output, and it is not an error.
 With pwd command, we see that we are directed to lecture1 directory.
 
 **Question 03**
@@ -79,4 +79,4 @@ Command cat would print out the content in a specific file, so when the argument
 ![Image](screenshot10.png)
 
 Working directory is lecture1. 
-Here, I take two file names as argument: Hello.java and README. Both files are under the directory lecture1 that we are currently in. The cat command would print out content within these two files respectively, first print ot Hello.java, then README. The output is not an error.
+Here, I take two file names as argument: Hello.java and README. Both files are under the directory lecture1 that we are currently in. The cat command would print out content within these two files respectively, first print out Hello.java, then README. The output is not an error.
