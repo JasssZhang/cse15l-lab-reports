@@ -64,15 +64,15 @@ Screenshot 2
 Here, I entered "/add-message?s=How are you&user=jzhang" as input arguments in the url block. Same as the first screenshot, handelRequest(URI url) method is called. The relevant argument to this method is "/add-message?s=How are you&user=jzhang". String storeString is a relevant field. From this specific request, length of this string is changed to 2, and a new element is added to the string to change its value, which is "jzhang: How+are+you". The storeString is now {"jasmine: hello", "jzhang: How+are+you"}.
 
 ## Part 2
-Absolute path to private key
+Show with ls
 
+![Image](L2S4.png)
 
-Absolute path to public key
-
+Both private and public key
 
 Terminal interaction without password
 
-![Image](L2S1.png)
+![Image](L2S5.png)
 
 Here, once I've stored my public ssh key within the .ssh directory on my remote account, I was asked to enter my password. When I try to log in after this, I was able to log in directly, without being asked for a password.
 
