@@ -2,7 +2,54 @@
 *Jasmine Zhang A17371205*
 ## Part 1
 ChatServer code
+```
+import java.io.IOException;
+import java.net.URI;
 
+// adds text message in the form <user>: <message>
+class Handler implements URLHandler {
+
+    //create new string outside method
+    //otherwise it would be renewed everytime we run the method
+    String storeString = "";
+    public String handleRequest(URI url){
+        if (url.getPath().equals("/")){
+            return storeString;
+        } else{
+            if (url.getPath().contains("/add-message")){
+                //get url after ? and split by &
+                //store in input String array
+                String[] input = url.getQuery().split("&");
+                //split the two strings seperately
+                //store in message and user String array
+                String[] message = input[0].split("=");
+                String[] user = input[1].split("=");
+                //Strings we need are stored in user[1] and message[1]
+                String result = String.format(user[1] + ": " + message[1] + "\n");
+                
+                //store result in String
+                //return string
+                storeString += result;
+                return storeString;
+            }
+        }
+        return "404 not found!";
+    }
+}
+
+class ChatServer {
+    public static void main(String[] args) throws IOException {
+        if (args.length ==0){
+            System.out.println("Missing port number. Please try again.");
+            return;
+        }
+        //get port number and typecast into integer
+        int portNum = Integer.parseInt(args[0]);
+        //start server
+        Server.start(portNum, new Handler());
+    }
+}
+```
 
 Screenshot 1
 
