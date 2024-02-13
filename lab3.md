@@ -33,7 +33,7 @@ public void testReverseInPlace() {
 
 ![Image](L3S1.png)
 
-From the screenshot above, we can see that two tests ran, with 1 failure. The failure test method is `testReverseInPlace2()`. The value of the actual array at index 2 (which is 1) is different than the expected value (which is supposed to be 1). From this error message, we know that one of our test cases failed, and there is a wrong implementation in our method. Specifically, we did not return the correct array in reversed order.
+From the screenshot above, we can see that two tests ran, with 1 failure. The succeeded test method is `testReverInPlace()`. The failure test method is `testReverseInPlace2()`. The value of the actual array at index 2 (which is 1) is different than the expected value (which is supposed to be 1). From this error message, we know that one of our test cases failed, and there is a wrong implementation in our method. Specifically, we did not return the correct array in reversed order.
 
 
 **Bug with before-and-after code**
@@ -73,6 +73,10 @@ To fix the bug, we can create a new array `newArr` and use a for loop to copy el
 ## Part 02 - Researching Commands
 
 **Interesting command line options**
+
+For this part, I decide to research more interesting command line options on the command `find`.
+
+**Option 1**
 
 
 
