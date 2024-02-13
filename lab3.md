@@ -10,26 +10,30 @@ Here, I choose to work on the bugs in `ArrayExamples.java`, specifically, the bu
 **Failure-inducing input**
 
 ```
-  @Test
-  public void testReverseInPlace2(){
-    int[] threeElements = {1, 2, 3};
-    ArrayExamples.reverseInPlace(threeElements);
-    assertArrayEquals("check array updated", new int[]{3, 2, 1}, threeElements);
-  }
+@Test
+public void testReverseInPlace2(){
+   int[] threeElements = {1, 2, 3};
+   ArrayExamples.reverseInPlace(threeElements);
+   assertArrayEquals("check array updated", new int[]{3, 2, 1}, threeElements);
+}
 ```
 
 **Input does not induce failure**
 
 ```
-	@Test 
-	public void testReverseInPlace() {
-    int[] oneElement = {1};
-    ArrayExamples.reverseInPlace(oneElement);
-    assertArrayEquals("check array updated", new int[]{1}, oneElement);
-	}
+@Test 
+public void testReverseInPlace() {
+   int[] oneElement = {1};
+   ArrayExamples.reverseInPlace(oneElement);
+   assertArrayEquals("check array updated", new int[]{1}, oneElement);
+}
 ```
 
 **Symptoms with screenshots**
+
+![Image](L3S1a.png)
+
+From the screenshot above, we can see that two tests ran, with 1 failure. The failure test method is `testReverseInPlace2()`. The value of the actual array at index 2 (which is 1) is different than the expected value (which is supposed to be 1). From this error message, we know that one of our test cases failed, and there is a wrong implementation in our method. Specifically, we did not return the correct array in reversed order.
 
 
 **Bug with before-and-after code**
