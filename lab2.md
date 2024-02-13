@@ -55,14 +55,14 @@ class ChatServer {
 
 ![Image](L2S2.png)
 
-Here, I typed `/add-message?s=hello&user=jasmine` as input arguments in url block. This would call the `handleRequest(URL url)` method, and would specifically run the `else if` part of my code. This method takes in `/add-message?s=hello&user=jasmine` as an argument. Relevant field to this method is the String `storeString`, which is created to store the values of <user>: message in each call of the method. From this specific request, the length of the String is incremented by one. The value of the string changed as one element: "jasmine: hello" is added. The `storeString` is now {"jasmine: hello"}.
+Here, I typed `/add-message?s=hello&user=jasmine` as input arguments in url block. This would call the `handleRequest(URL url)` method, and would specifically run the `else if` part of my code. This method takes in `/add-message?s=hello&user=jasmine` as an argument. Relevant field to this method is the String `storeString`, which is created to store the values of <user>: message in each call of the method. From this specific request, the length of the String is incremented by one. The value of the string changed as one element: `jasmine: hello` is added. The `storeString` is now {"jasmine: hello"}.
 
 
 **Screenshot 2**
 
 ![Image](L2S3.png)
 
-Here, I entered `/add-message?s=How are you&user=jzhang` as input arguments in the url block. Same as the first screenshot, `handelRequest(URI url)` method is called. The relevant argument to this method is `/add-message?s=How are you&user=jzhang`. String `storeString` is a relevant field. From this specific request, length of this string is changed to 2, and a new element is added to the string to change its value, which is "jzhang: How+are+you". The `storeString` is now {"jasmine: hello", "jzhang: How+are+you"}.
+Here, I entered `/add-message?s=How are you&user=jzhang` as input arguments in the url block. Same as the first screenshot, `handelRequest(URI url)` method is called. The relevant argument to this method is `/add-message?s=How are you&user=jzhang`. String `storeString` is a relevant field. From this specific request, length of this string is changed to 2, and a new element is added to the string to change its value, which is `jzhang: How+are+you`. The `storeString` is now {"jasmine: hello", "jzhang: How+are+you"}.
 
 ## Part 2
 
