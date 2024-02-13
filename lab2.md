@@ -82,7 +82,12 @@ The path for public key is `/home/.ssh/id_ed25519.pub`
 ![Image](L2E1.png)
 
 On `ieng6`, on the other hand, both private and public key are also stored in directory `.ssh`. Private key is stored in `id_rsa` while public key is stored in file `id_rsa.pub`.
-Thus, we have that the absolute path for private key on `ieng6` is 
+
+![Image](L2E3.png)
+
+Thus, we have that the absolute path for private key on `ieng6` is `/home/linux/ieng6/oce/2p/jiz186/.ssh/id_rsa.`
+
+The absolute path for public key on `ieng6` is `/home/linux/ieng6/oce/2p/jiz186/.ssh/id_rsa.pub.`
 
 
 **Terminal interaction without password**
