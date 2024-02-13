@@ -79,12 +79,14 @@ The path for public key is `/home/.ssh/id_ed25519.pub`
 
 **Show with `ls` on `ieng6`**
 
+![Image](L2E1.png)
+
 On ieng6, on the other hand, both private and public key are also stored in directory `.ssh`. Private key is stored in `id_rsa` while public key is stored in file `id_rsa.pub`.
 
 
 **Terminal interaction without password**
 
-![Image](L2S5.png)
+![Image](L2E2.png)
 
 Here, once I've stored my public ssh key within the `.ssh` directory on my remote account, I was asked to enter my password. When I try to log in after this, I was able to log in directly, without being asked for a password.
 
