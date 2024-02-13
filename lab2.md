@@ -66,16 +66,20 @@ Here, I entered `/add-message?s=How are you&user=jzhang` as input arguments in t
 
 ## Part 2
 
-**Show with ls**
+**Show with `ls`**
 
 ![Image](L2S4.png)
 
-Both private and public key are stored in directory `.ssh`. Private key is stored in `id_ed25519` while public key is stored in file `id_ed25519.pub`
+In our local computer, both private and public key are stored in directory `.ssh`. Private key is stored in `id_ed25519` while public key is stored in file `id_ed25519.pub`.
 
 ![Image](L2S4a.png)
 The path for private key is `/home/.ssh/id_ed25519`
 
 The path for public key is `/home/.ssh/id_ed25519.pub`
+
+**Show with `ls` on `ieng6`**
+
+On ieng6, on the other hand, both private and public key are also stored in directory `.ssh`. Private key is stored in `id_rsa` while public key is stored in file `id_rsa.pub`.
 
 
 **Terminal interaction without password**
