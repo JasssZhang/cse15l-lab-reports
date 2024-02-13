@@ -55,7 +55,7 @@ class ChatServer {
 
 ![Image](L2S2.png)
 
-Here, I typed "/add-message?s=hello&user=jasmine" as input arguments in url block. This would call the handleRequest(URL url) method, and would specifically run the "else if" part of my code. This method takes in "/add-message?s=hello&user=jasmine" as an argument. Relevant field to this method is the String storeString, which is created to store the values of <user>: message in each call of the method. From this specific request, the length of the String is incremented by one. The value of the string changed as one element: "jasmine: hello" is added. The storeString is now {"jasmine: hello"}.
+Here, I typed `/add-message?s=hello&user=jasmine` as input arguments in url block. This would call the handleRequest(URL url) method, and would specifically run the "else if" part of my code. This method takes in "/add-message?s=hello&user=jasmine" as an argument. Relevant field to this method is the String storeString, which is created to store the values of <user>: message in each call of the method. From this specific request, the length of the String is incremented by one. The value of the string changed as one element: "jasmine: hello" is added. The storeString is now {"jasmine: hello"}.
 
 
 **Screenshot 2**
