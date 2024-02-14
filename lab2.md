@@ -73,6 +73,7 @@ Here, I entered `/add-message?s=How are you&user=jzhang` as input arguments in t
 In our local computer, both private and public key are stored in directory `.ssh`. Private key is stored in `id_ed25519` while public key is stored in file `id_ed25519.pub`.
 
 ![Image](L2S4a.png)
+
 The path for private key is `/home/.ssh/id_ed25519`
 
 The path for public key is `/home/.ssh/id_ed25519.pub`
@@ -83,7 +84,7 @@ The path for public key is `/home/.ssh/id_ed25519.pub`
 
 On `ieng6`, on the other hand, we have stored our public key in `authorized_keys` under the directory `.ssh`. We've done this previously with the command `scp /home/.ssh/id_ed25519.pub jiz186@ieng6.ucsd.edu:~/.ssh/authorized_keys`. Thus, to get the absolute path, we can first use `ls` to make sure that `authorized_keys` is under `.ssh` directory. Then, use `pwd` to get the absolute path of the current directory as `/home/linux/ieng6/oce/2p/jiz186/.ssh`. With this said, adding the file name after this path would give us the absolute path of `authorized_keys` where our public key is stored.
 
-Thus, we have that the absolute path for private key on `ieng6` is `/home/linux/ieng6/oce/2p/jiz186/.ssh/authorized_keys` on `ieng6`.
+Thus, we have that the absolute path for public key on `ieng6` is `/home/linux/ieng6/oce/2p/jiz186/.ssh/authorized_keys` on `ieng6`.
 
 **Terminal interaction without password**
 
