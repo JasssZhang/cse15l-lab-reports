@@ -13,7 +13,7 @@ Here, I logged into my ieng6 account by typing in the command `ssh jiz186@ieng6.
 
 ![Image](L4S5.png)
 
-Key pressed: `Ctrl` `c` `git clone ` `Ctrl` `v` `<enter>`
+Key pressed: `Ctrl` `c` `git clone `  `Ctrl` `v` `<enter>`
 
 Here, I forked `lab7` repository in my Github account in advance, and pressed `Ctrl-c` to copy the `SSH` URL(`git@github.com:JasssZhang/lab7.git`) onto clipboard. Then I typed `git clone ` onto the terminal and pressed `Ctrl-v` (or with a right click on the mouse) to paste the URL from the clipboard. Finally, I pressed `<enter>` to run the command, we can see that the repository is successfully cloned to my ieng6 account.
 
@@ -31,7 +31,7 @@ Here, I first typed `cd lab7` and pressed `<enter>` to make sure that I am curre
 
 ![Image](L4S7b.png)
 
-Key pressed: `vim ListExamples.java`, `43j` `11l` `x` `i` `2` `<esc>` `:wq` `<enter>`
+Key pressed: `vim ListExamples.java` `<enter>`, `43j` `11l` `x` `i` `2` `<esc>` `:wq` `<enter>`
 
 Here, I used `vim` command to edit the file. In the terminal, I typed in `vim ListExamples.java` to access the java file `ListExamples`. My cursor is at the top front of the file's output, so I typed `43j` to move the cursor down 43 lines. Then, I typed `11l` to get to the place that needs edit. Then, I typed in `x`, `i`, `2`, `<esc>`, `:wq`, `<enter>`. `x` deleted the character under my current cursor, `i` placed me into insert mode, `2` added the character 2 after "index", `<esc>` get me back to normal mode, `:wq` saves my edit and exit `vim` command back to the terminal. Here, I have successfully editted and saved my code.
 
