@@ -33,7 +33,7 @@ Here, I first typed `cd lab7` and pressed `<enter>` to make sure that I am curre
 
 Key pressed: `vim ListExamples.java`, `43j` `11l` `x` `i` `2` `<esc>` `:wq` `<enter>`
 
-Here, I used `vim` command to edit the file. In the terminal, I typed in `vim ListExamples.java` to access the java file `ListExamples`. My cursor is at the top front of the file's output, so I typed `43j' to move the cursor down 43 lines. Then, I typed `11l` to get to the place that needs edit. Then, I typed in `x`, `i`, `2`, `<esc>`, `:wq`, `<enter>`. `x` deleted the character under my current cursor, `i` placed me into insert mode, `2` added the character 2 after "index", `<esc>` get me back to normal mode, `:wq` saves my edit and exit `vim` command back to the terminal. Here, I have successfully editted and saved my code.
+Here, I used `vim` command to edit the file. In the terminal, I typed in `vim ListExamples.java` to access the java file `ListExamples`. My cursor is at the top front of the file's output, so I typed `43j` to move the cursor down 43 lines. Then, I typed `11l` to get to the place that needs edit. Then, I typed in `x`, `i`, `2`, `<esc>`, `:wq`, `<enter>`. `x` deleted the character under my current cursor, `i` placed me into insert mode, `2` added the character 2 after "index", `<esc>` get me back to normal mode, `:wq` saves my edit and exit `vim` command back to the terminal. Here, I have successfully editted and saved my code.
 
 ## Step 8: Run tests (succeeds)
 
