@@ -15,7 +15,7 @@ Here, I logged into my ieng6 account by typing in the command `ssh jiz186@ieng6.
 
 Key pressed: `Ctrl` `c` `git clone ` `Ctrl` `v` `<enter>`
 
-Here, I forked `lab7` repository in my Github account in advance, and pressed `Ctrl-c` to copy the `SSH` URL(`git@github.com:JasssZhang/lab7.git`) onto clipboard. Then I typed `git clone ` onto the terminal and pressed `Ctrl-v' (or with a right click on the mouse) to paste the URL from the clipboard. Finally, I pressed `<enter>` to run the command, we can see that the repository is successfully cloned to my ieng6 account.
+Here, I forked `lab7` repository in my Github account in advance, and pressed `Ctrl-c` to copy the `SSH` URL(`git@github.com:JasssZhang/lab7.git`) onto clipboard. Then I typed `git clone ` onto the terminal and pressed `Ctrl-v` (or with a right click on the mouse) to paste the URL from the clipboard. Finally, I pressed `<enter>` to run the command, we can see that the repository is successfully cloned to my ieng6 account.
 
 ## Step 6: Run tests (fails)
 
