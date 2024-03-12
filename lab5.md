@@ -15,7 +15,7 @@ Also, when I'm trying to run the bash script to test the program, it's giving me
 
 Hi, your error message said expected `[c]` but was `[x]`. `[x]` appeared in only the first test method `testMerge1()`. When these two test cases are mixed together in some way in the output, it might be that you did not store the `result` value everytime individually for each `merge` call. We need more information about your code to help you find out what is going on, but that is definitely something you can check and edit. 
 
-You can try jdb and stopping at line 48 or something,and check `locals` or `print reults`. Look at the output carefully and see what you can find. Or, you can try `System.out.println()` in some parts in the `merge` method to trace to value in `result`. Please provide further screenshot of your actual code in `ListExamples.java` if the bug is still there.
+You can try jdb and stopping at line 48 or something,and check `locals` or `print results`. Look at the output carefully and see what you can find. Or, you can try `System.out.println()` in some parts in the `merge` method to trace to value in `result`. Please provide further screenshot of your actual code in `ListExamples.java` if the bug is still there.
 
 For the bash script, can you sreenshot what you currently have? It might be that Windows and Mac have different run commands for JUnit. I think the provided code is for Mac users specifically, so if your are using Windows, be sure to change it accordingly. You can find the corresponding run commands in Week4 lab. I hope this answers your question. Please follow up if you have more questions. Thank you!
 
