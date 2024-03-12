@@ -4,7 +4,7 @@
 ## Part 1 – Debugging Scenario
 **Original Student Post of Bug**
 
-Hi, I am having difficulty for passing the tests in lab7. I have correctly changed line 15 to `result.add(s)`, and line 44 to `index2`, but the second merge test failed. Is it anything I did that caused the error, or are there other bugs in the program that I did not notice? 
+Hi, I am having difficulty for passing the tests in lab7. I have correctly changed line 15 to `result.add(s)`, and line 44 to `index2`, but the second merge test failed. Can it be something wrong with the `result` variable or that `Merge` method is not written correctly?
 
 Also, when I'm trying to run the bash script to test the program, it's giving me strange error message in the terminal saying things like `org.junit` does not exist, or `@Test` symbol is not found, etc. I double checked that I did not changed the bash script given in the cloned repository, also JUnit is correctly installed and imported. I wonder what might be the issue there. Thank you so much for your time!
 
@@ -27,6 +27,8 @@ Student: I got the array output of the two test cases as shown in screenshot bel
 ![Image](L5S3.png)
 
 This shows that the bug is that there is something wrong with the `result` variable. They are made to be instance variables instead of local variables in each method. This is why the result from the first test case is stored and result from the second one is added based on the previous result. 
+
+For the bash script, the bug is that the run command in the script is not updated correctly to match Windows.
 
 **Additional Information**
 
