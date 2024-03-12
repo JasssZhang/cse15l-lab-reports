@@ -24,6 +24,7 @@ For the bash script, can you sreenshot what you currently have? It might be that
 
 Student: I got the array output of the two test cases as shown in screenshot below after putting `System.out.println(result)` before the return statement in `Merge` method. This demonstrated that some parts of the `result` is indeed not updated, and the expected array list for `testMerge2()` is simply appended after the original elements in `result`.
 
+![Image](L5S3.png)
 
 This shows that the bug is that there is something wrong with the `result` variable. They are made to be instance variables instead of local variables in each method. This is why the result from the first test case is stored and result from the second one is added based on the previous result. 
 
