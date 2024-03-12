@@ -4,11 +4,34 @@
 ## Part 1 – Debugging Scenario
 **Original Student Post of Bug**
 
+Hi, I am having difficulty for passing the tests in lab7. I have correctly changed line 15 to result.add(s), and line 44 to index2, but the second merge test failed. Is it anything I did that caused the error, or are there other bugs in the program that I did not notice? 
+
+Also, when I'm trying to run the bash script to test the program, it's giving me strange error message in the terminal saying things like `org.junit` does not exist, or `@Test` symbol is not found, etc. I double checked that I did not changed the bash script given in the cloned repository, also JUnit is correctly installed and imported. I wonder what might be the issue there. Thank you so much for your time!
+
+
 **TA's Response**
 
 **Student's Try and Output**
 
 **Additional Information**
+
+1. File & directory
+
+   I designed this bug from `https://github.com/ucsd-cse15l-s23/lab7` in Week7's lab activity. File used are `ListExamples.java`, `ListExamplesTests.java`, and `test.sh`. Directory is `lab7`.
+
+2. Before fixing the bug
+
+   Edits I made to design the bug in `ListExamples`:
+
+   Line 15: change result.add(0, s) to result.add(s);
+
+   
+
+4. Triggering the bug
+
+5. Fix the bug
+
+
 
 
 ## Part 2 – Reflection
